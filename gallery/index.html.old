@@ -4,7 +4,7 @@
 
   <meta charset="ISO-8859-1">
 
-  <title>Matchstick Memories | Information, links, and support for the iOS puzzle based meta text RPG adventure</title>
+  <title>Gallery</title>
 
   <meta name="HandheldFriendly" content="True">
 
@@ -26,7 +26,7 @@
   <meta property="og:url" content="http://www.heavyhandedgames.com/">
 
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-  <link href="override.css" rel="stylesheet">
+  <link href="../override.css" rel="stylesheet">
   <style>
 
 
@@ -288,9 +288,9 @@
         <ul class='nav navbar-nav navbar-right collapse navbar-collapse shiftRight'>
           <li><a href="mailto:contact@heavyhandedgames.com">EMAIL</a></li>
           <li><a href="https://twitter.com/HeavyHandedGame">TWITTER</a></li>
-          <li><a href="../ablog/">BLOG</a></li>
-          <li><a href="../gallery/">GALLERY</a></li>
-          <li><a href="../hhgholders/">HHGHOLDERS</a></li>
+          <li><a href="./ablog/index.html">BLOG</a></li>
+          <li><a href="..index.html">HOME</a></li>
+          <li><a href="./hhgholders/index.html">HHGHOLDERS</a></li>
 
         </ul>
       </div>
@@ -306,16 +306,7 @@
 
         <div class="col-xs-12 col-sm-8 col-md-7 col-md-offset-1 col-lg-6 col-lg-offset-2 leftside">
 
-          <img class="msmtitle" src="http://heavyhandedgames.com/msmtitle.png" alt="matchstick memories"></img>
-          <a href="https://itunes.apple.com/app/matchstick-memories-meta-text/id912230789?ls=1&mt=8">
-          <img class="msmicon" src="http://heavyhandedgames.com/heavyHandedGamesAppIcon152.png" alt="ICON"></img></a>
 
-          <a href="http://www.macnn.com/articles/14/12/02/matchstick.memories.text.adventure.and.match.three.story/">
-          <p class="leadreview lead text-left hidden-xs">"a great example of what can be done with the match three and puzzle genres if developers think outside of the box"</p>
-          <p class="leadreviewxs text-left hidden-sm hidden-md hidden-lg">"a great example of what can be done...if developers think outside of the box"</p>
-
-          <span class="leadbi text-right">MacNN.com</span>
-          </a>
 
 
         </div>
@@ -329,51 +320,24 @@
 
       <div class="row text-center triple-icon limit320">
 
+      <!-- http://heavyhandedgames.com/intersection/ -->
 
-        <div class="col-xs-12 col-sm-11 col-lg-10 reviewholder reviewholderright"><a href="http://www.pockettactics.com/news/ios-news/strike-matchstick-memories-brings-puzzles-dark-room-style-narrative/">
 
-          <i class="glyphicon glyphicon-comment messageicon messageiconright"></i>
-          <p class="lowerreview lowerreviewright">"If you enjoyed A Dark Room, this game is absolutely for you"</p>
-          <p class="lowerbiline lowerbilineright">PocketTactics.com<p>
-          </a>
-        </div>
 
-        <div class="col-xs-11 col-md-offset-1 col-lg-10 col-lg-offset-2 reviewholder reviewholderleft"><a href="http://www.gamezebo.com/2014/12/05/matchstick-memories-uses-puzzles-words-wonder-life/">
+          <div class="col-xs-12 col-sm-11 col-lg-10 reviewholder reviewholderright">
+          </div>
 
-          <i class="glyphicon glyphicon-comment messageicon messageiconleft"></i>
-          <p class="lowerreview lowerreviewleft">"an existential journey"</p>
-          <p class="lowerbiline lowerbilineleft">Gamezebo.com<p>
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-11 col-lg-10 reviewholder reviewholderright"><a href="http://jayisgames.com/archives/2014/09/matchstick_memories.php">
+          <div class="col-xs-11 col-md-offset-1 col-lg-10 col-lg-offset-2 reviewholder reviewholderleft">
+          </div>
+          <div class="col-xs-12 col-sm-11 col-lg-10 reviewholder reviewholderright">
+          </div>
 
-            <i class="glyphicon glyphicon-comment messageicon messageiconright"></i>
-            <p class="lowerreview lowerreviewright">"surprisingly compelling and tactile gameplay"</p>
-            <p class="lowerbiline lowerbilineright">JayIsGames.com<p>
-            </a>
-        </div>
-
-          <div class="col-xs-11 col-md-offset-1 col-lg-10 col-lg-offset-2 reviewholder reviewholderleft"><a href="http://www.continue-play.com/review/matchstick-memories-review-more-than-just-a-puzzle-game/">
-
-          <i class="glyphicon glyphicon-comment messageicon messageiconleft"></i>
-          <p class="lowerreview lowerreviewleft">"a refreshing departure from the typical mobile puzzle game"</p>
-          <p class="lowerbiline lowerbilineleft">Continue-Play.com<p>
-          </a>
+          <div class="col-xs-11 col-md-offset-1 col-lg-10 col-lg-offset-2 reviewholder reviewholderleft">
           </div>
 
         </div>
-
-          <div class="col-xs-12 text-center">
-            <div class="spacer1"></div>
-              <p class="legal">&copy 2015 Heavy Handed Holdings.</p>
-              <div class="spacer2"></div>
-            </div>
-          </div>
-
-
 
       </div>
-
 
           <div class="navbar navbar-inverse navbar-fixed-bottom text-center limit320">
 
@@ -405,7 +369,7 @@
 
             var tWidth = 1920;
             var tHeight = 1080;
-            var tSide = Math.floor( 1920 / 30);
+            var tSide = Math.floor( 1920 / 60);
 
             function colorRandom(){
               return Math.floor((Math.random() * colorPicker.length - 1) + 1);
